@@ -1,0 +1,170 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a CI, but they might be copied to contributing developer's
+# local machine.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PEP 582; used by PDM, PEP 582 proposals
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static analysis results
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# VSCode settings
+.vscode/
+
+# Data files
+data/raw/*
+data/processed/*
+# Keep the directories, but ignore their contents initially
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Example folder
+.example/
+
+# uv cache/lock files
+.uv_cache/
+# uv.lock # Typically you DO want to commit uv.lock, commenting out for now
+uv.lock # Exclude uv.lock as we now use conda environment.yml
+
+# Model files (optional, uncomment if needed)
+# models/
+# *.pt
+# *.h5
+# *.onnx
+
+# Configuration files (optional, uncomment if sensitive)
+# config/*.yaml
+# config/*.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Configuration files (add sensitive or user-specific configs here)
+# config/config.yaml # Removed as example is removed
+
+# IDE specific files
+# // ... existing code ... 
+
+# Project specific ignores
+PROJECT_NOTES.md
+.example/
+.cursor/ 
